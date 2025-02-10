@@ -1,0 +1,28 @@
+# deepfashion2.yaml
+
+# Base directory of your dataset
+path: /Users/deronmartin/Documents/VSCode/Model Training/yolov8/deepfashion2
+
+# Relative paths to the training and validation images.
+# The segmentation masks are automatically expected in a parallel folder named "masks".
+train: images/train
+val: images/val
+
+# Number of classes (13 clothing categories)
+nc: 13
+
+# List of class names. The order here should match the pixel values in your masks.
+names:
+  - short sleeve top
+  - long sleeve top
+  - short sleeve outwear
+  - long sleeve outwear
+  - vest
+  - sling
+  - shorts
+  - trousers
+  - skirt
+  - short sleeve dress
+  - long sleeve dress
+  - vest dress
+  - sling dress

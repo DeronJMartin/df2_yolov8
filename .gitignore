@@ -1,0 +1,5 @@
+/.DS_Store
+/.training
+/deepfashion2
+/runs
+/yolov8n-seg.pt
